@@ -71,7 +71,6 @@ StyleCopReport.xml
 *.obj
 *.iobj
 *.pch
-*.pdb
 *.ipdb
 *.pgc
 *.pgd
@@ -349,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+*.idb
+!x64/Debug
+!x64/Debug/*.lib
